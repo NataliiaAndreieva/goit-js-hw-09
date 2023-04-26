@@ -16,3 +16,11 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  width: 60px;
+  height: 30px;
+  background-color: beige;
+  border-radius: 4px;
+  cursor: pointer;
+}
