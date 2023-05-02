@@ -1,4 +1,4 @@
-import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import { Notify } from 'notiflix';
 
 const refs = {
   form: document.querySelector('form'),
@@ -10,7 +10,6 @@ const refs = {
 console.log('refs', refs);
 
 refs.form.addEventListener('submit', onClickCreatePromises);
-
 
 function onClickCreatePromises(e) {
   e.preventDefault();

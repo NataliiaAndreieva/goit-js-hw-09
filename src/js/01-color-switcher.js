@@ -14,7 +14,6 @@ function onClickStartBtn() {
     }, 1000);
     startBtn.setAttribute('disabled', true);
     stopBtn.removeAttribute('disabled');
-
 }
 
 function onClickStopBtn() {
@@ -22,7 +21,6 @@ function onClickStopBtn() {
     startBtn.removeAttribute('disabled');
     stopBtn.setAttribute('disabled', true);
 }
-
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
